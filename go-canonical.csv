@@ -2,3 +2,4 @@
 retry,https://github.com/moul/retry,https://github.com/moul/retry,https://github.com/moul/retry
 depviz,https://github.com/moul/depviz,https://github.com/moul/depviz,https://github.com/moul/depviz
 anonuuid,https://github.com/moul/anonuuid,https://github.com/moul/anonuuid,https://godoc.org/moul.io/anonuuid
+protoc-gen-gotemplate,https://github.com/moul/protoc-gen-gotemplate,https://github.com/moul/protoc-gen-gotemplate,https://github.com/moul/protoc-gen-gotemplate
