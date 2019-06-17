@@ -1,0 +1,14 @@
+#package        repo                                                    sub-packages
+retry                   https://github.com/moul/retry
+depviz                  https://github.com/moul/depviz                  cli pkg/airtabledb pkg/issues tools/opml-to-github-issues tools/sed-i-github-issues
+anonuuid                https://github.com/moul/anonuuid
+protoc-gen-gotemplate   https://github.com/moul/protoc-gen-gotemplate   helpers
+zapgorm                 https://github.com/moul/zapgorm
+sshportal               https://github.com/moul/sshportal
+assh                    https://github.com/moul/assh                    contrib/completion/gen pkg/commands pkg/config pkg/config/graphviz pkg/controlsockets pkg/hooks pkg/logger pkg/ratelimit pkg/templates pkg/utils pkg/version pkg contrib contrib/completion
+patfind                 https://github.com/moul/patfind
+manfred.life            https://github.com/moul/manfred.life
+dockerself              https://github.com/moul/dockerself
+totp-keychain           https://github.com/moul/totp-keychain
+pipotron                https://github.com/moul/pipotron
+graphman                https://github.com/moul/graphman
