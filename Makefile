@@ -1,3 +1,3 @@
-.PHONY: run
-run:
-	./go-canonical.sh
+.PHONY: build
+build:
+	./go-get.sh
