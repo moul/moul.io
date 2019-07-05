@@ -1,4 +1,4 @@
-#package        repo                                                    sub-packages
+#package        repo                                                    s1;5202;0cub-packages
 retry                   https://github.com/moul/retry
 depviz                  https://github.com/moul/depviz                  cli pkg/airtabledb pkg/issues tools/opml-to-github-issues tools/sed-i-github-issues
 anonuuid                https://github.com/moul/anonuuid
@@ -11,4 +11,5 @@ manfred.life            https://github.com/moul/manfred.life
 dockerself              https://github.com/moul/dockerself
 totp-keychain           https://github.com/moul/totp-keychain
 pipotron                https://github.com/moul/pipotron                dict pipotron
-graphman                https://github.com/moul/graphman viz examples examples/graphviz 
+graphman                https://github.com/moul/graphman viz examples examples/graphviz
+golang-repo-template    https://github.com/moul/golang-repo-template
