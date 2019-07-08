@@ -11,5 +11,5 @@ manfred.life            https://github.com/moul/manfred.life
 dockerself              https://github.com/moul/dockerself
 totp-keychain           https://github.com/moul/totp-keychain
 pipotron                https://github.com/moul/pipotron                dict pipotron
-graphman                https://github.com/moul/graphman viz examples examples/graphviz
+graphman                https://github.com/moul/graphman viz examples examples/graphviz cmd cmd/pertify
 golang-repo-template    https://github.com/moul/golang-repo-template
