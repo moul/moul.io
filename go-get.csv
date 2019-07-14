@@ -14,3 +14,4 @@ pipotron                https://github.com/moul/pipotron                dict pip
 graphman                https://github.com/moul/graphman                viz examples examples/graphviz cmd cmd/pertify
 golang-repo-template    https://github.com/moul/golang-repo-template
 build                   https://github.com/moul/build
+quicssh                 https://github.com/moul/quicssh
