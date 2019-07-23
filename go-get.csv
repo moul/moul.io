@@ -16,3 +16,4 @@ golang-repo-template    https://github.com/moul/golang-repo-template
 build                   https://github.com/moul/build
 quicssh                 https://github.com/moul/quicssh
 fs-bundler              https://github.com/moul/fs-bundler
+multipmuri              https://github.com/moul/multipmuri
