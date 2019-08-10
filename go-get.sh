@@ -8,6 +8,7 @@ create_package() {
     project_url="$2"
     sub_package="$3"
 
+    mkdir -p $rootdir
     mkdir -p $rootdir/$project_name/$sub_package
     cat > $rootdir/$project_name/$sub_package/index.html <<EOF
 <!DOCTYPE html>
@@ -24,6 +25,8 @@ create_package() {
 EOF
 }
 
+> $rootdir/go-packages.txt
+
 while read line; do
     if echo $line | grep --silent -E '^#'; then continue; fi
 
@@ -37,6 +40,7 @@ while read line; do
     echo "sub_packages: $sub_packages"
     echo ""
     create_package "$project_name" "$project_url" "."
+    echo "$project_name" >> $rootdir/go-packages.txt
     for sub_package in $sub_packages; do
         create_package "$project_name" "$project_url" "$sub_package"
     done
