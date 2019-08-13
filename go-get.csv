@@ -1,4 +1,4 @@
-#package        repo                                                    s1;5202;0cub-packages
+#package        repo                                                    sub-packages
 retry                   https://github.com/moul/retry
 depviz                  https://github.com/moul/depviz                  cli pkg/airtabledb pkg/issues tools/opml-to-github-issues tools/sed-i-github-issues
 anonuuid                https://github.com/moul/anonuuid
@@ -20,3 +20,4 @@ multipmuri              https://github.com/moul/multipmuri              pmbodypa
 dl                      https://github.com/moul/dl
 cryptoguess             https://github.com/moul/cryptoguess             cryptoguess
 golabo                  https://github.com/moul/golabo
+number-to-words         https://github.com/moul/number-to-words
