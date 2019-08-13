@@ -20,4 +20,4 @@ multipmuri              https://github.com/moul/multipmuri              pmbodypa
 dl                      https://github.com/moul/dl
 cryptoguess             https://github.com/moul/cryptoguess             cryptoguess
 golabo                  https://github.com/moul/golabo
-number-to-words         https://github.com/moul/number-to-words
+number-to-words         https://github.com/moul/number-to-words         cmd cmd/number-to-words cmd/ntw-web
