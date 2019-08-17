@@ -23,4 +23,4 @@ golabo                  https://github.com/moul/golabo
 number-to-words         https://github.com/moul/number-to-words         cmd cmd/number-to-words cmd/ntw-web
 funcenter               https://github.com/moul/funcenter               logging logging/zap examples examples/zap examples/custom
 asciimoul               https://github.com/moul/asciimoul
-moulsay                 https://github.com/moul/moulsay
+moulsay                 https://github.com/moul/moulsay                 moulsay
