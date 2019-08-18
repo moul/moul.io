@@ -24,3 +24,5 @@ number-to-words         https://github.com/moul/number-to-words         cmd cmd/
 funcenter               https://github.com/moul/funcenter               logging logging/zap examples examples/zap examples/custom
 asciimoul               https://github.com/moul/asciimoul
 moulsay                 https://github.com/moul/moulsay                 moulsay
+moul.io                 https://github.com/moul/moul.io
+ascii2svg               https://github.com/moul/ascii2svg
