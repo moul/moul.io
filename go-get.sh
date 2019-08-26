@@ -8,7 +8,6 @@ create_package() {
     project_url="$2"
     sub_package="$3"
 
-    mkdir -p $rootdir
     mkdir -p $rootdir/$project_name/$sub_package
     cat > $rootdir/$project_name/$sub_package/index.html <<EOF
 <!DOCTYPE html>
