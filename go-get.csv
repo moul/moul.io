@@ -29,3 +29,4 @@ ascii2svg               https://github.com/moul/ascii2svg               ascii2sv
 event                   https://github.com/moul/event                   store
 godev                   https://github.com/moul/godev
 rules.mk                https://github.com/moul/rules.mk                test test/go-library test/go-binary test/go-binary-and-docker
+tmp-grt-fork            https://github.com/moul/tmp-grt-fork
