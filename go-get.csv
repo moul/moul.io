@@ -43,3 +43,4 @@ test-go-mod-version     https://github.com/moul/test-go-mod-version
 srand                   https://github.com/moul/srand
 junk                    https://github.com/moul/junk
 webchange               https://github.com/moul/webchange
+httpcache-filters       https://github.com/moul/httpcache-filters
