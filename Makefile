@@ -2,4 +2,9 @@
 build:
 	rm -rf public
 	cp -rf docs public
-	./go-get.sh
+	./gen.sh
+	@echo "Done. in ./public/"
+
+.PHONY: dev
+dev: build
+	netlify dev
