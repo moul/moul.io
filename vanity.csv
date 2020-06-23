@@ -43,7 +43,6 @@ test-go-mod-version     https://github.com/moul/test-go-mod-version
 srand                   https://github.com/moul/srand
 junk                    https://github.com/moul/junk
 webchange               https://github.com/moul/webchange
-#httpcache-filters       https://github.com/moul/httpcache-filters
 hcfilters               https://github.com/moul/hcfilters
 pkgman                  https://github.com/moul/pkgman
 wipchat                 https://github.com/moul/wipchat
@@ -51,4 +50,4 @@ roundtripper            https://github.com/moul/roundtripper
 banner                  https://github.com/moul/banner
 bot                     https://github.com/moul/bot
 motd                    https://github.com/moul/motd
-bounce                  https://github.com/moul/bounce
+sgtm                    https://github.com/moul/sgtm
