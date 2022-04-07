@@ -24,6 +24,13 @@ EOF
   <head>
     <title>$domain/$project_name</title>
     <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta property="og:title" content="$domain/$project_name Go module">
+    <meta property="og:type" content="article">
+    <meta property="og:author" content="article">
+    <meta property="og:url" content="https://$domain/$project_name">
+    <meta property="og:image" content="https://$domain/moul-codes.png">
+    <meta property="og:site_name" content="$domain">
+    <meta property="article:author" content="https://manfred.life">
   </head>
   <body>
     <h1>$domain/$project_name</h1>
@@ -54,8 +61,12 @@ mv $rootdir/go-packages-sorted.txt $rootdir/go-packages.txt
 cat > $rootdir/index.html <<EOF
 <html>
   <head>
-    <title>$domain Go Modules</title>
+    <title>$domain Go modules</title>
     <link rel="stylesheet" type="text/css" href="/style.css">
+    <meta property="og:title" content="$domain Go modules">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://$domain/">
+    <meta property="og:image" content="https://$domain/moul-codes.png">
   </head>
   <body>
     <h1>$domain Go Modules</h1>
