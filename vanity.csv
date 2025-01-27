@@ -1,4 +1,4 @@
-# package               repo
+`# package               repo
 retry                   https://github.com/moul/retry
 depviz                  https://github.com/moul/depviz
 anonuuid                https://github.com/moul/anonuuid
@@ -94,3 +94,4 @@ plz                     https://github.com/moul/plz
 vanitycal               https://github.com/moul/vanitycal
 ansicat                 https://github.com/moul/ansicat
 migai                   https://github.com/moul/migai
+revbro                  https://github.com/moul/revbro
