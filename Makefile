@@ -8,3 +8,7 @@ build:
 .PHONY: dev
 dev: build
 	netlify dev
+
+.PHONY: list
+list:
+	./list-github-repos.sh | tee list.txt
