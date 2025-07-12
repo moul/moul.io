@@ -1,98 +1,103 @@
-# package               repo
-retry                   https://github.com/moul/retry
-depviz                  https://github.com/moul/depviz
-anonuuid                https://github.com/moul/anonuuid
-protoc-gen-gotemplate   https://github.com/moul/protoc-gen-gotemplate
-zapgorm                 https://github.com/moul/zapgorm
-sshportal               https://github.com/moul/sshportal
-assh                    https://github.com/moul/assh
-patfind                 https://github.com/moul/patfind
-manfred.life            https://github.com/moul/manfred.life
-dockerself              https://github.com/moul/dockerself
-totp-keychain           https://github.com/moul/totp-keychain
-pipotron                https://github.com/moul/pipotron
-graphman                https://github.com/moul/graphman
-golang-repo-template    https://github.com/moul/golang-repo-template
-build                   https://github.com/moul/build
-quicssh                 https://github.com/moul/quicssh
-fs-bundler              https://github.com/moul/fs-bundler
-multipmuri              https://github.com/moul/multipmuri
-dl                      https://github.com/moul/dl
-cryptoguess             https://github.com/moul/cryptoguess
-golabo                  https://github.com/moul/golabo
-number-to-words         https://github.com/moul/number-to-words
-funcenter               https://github.com/moul/funcenter
-asciimoul               https://github.com/moul/asciimoul
-moulsay                 https://github.com/moul/moulsay
-moul.io                 https://github.com/moul/moul.io
-ascii2svg               https://github.com/moul/ascii2svg
-event                   https://github.com/moul/event
-godev                   https://github.com/moul/godev
-rules.mk                https://github.com/moul/rules.mk
-tmp-grt-fork            https://github.com/moul/tmp-grt-fork
-drunken-bishop          https://github.com/moul/drunken-bishop
-otp                     https://github.com/moul/otp
-awesome                 https://github.com/moul/awesome
-guilhunize              https://github.com/moul/guilhunize
-music-paint             https://github.com/moul/music-paint
-metronome               https://github.com/moul/metronome
-hacker-typing           https://github.com/moul/hacker-typing
-http2curl               https://github.com/moul/http2curl
-lexique                 https://github.com/moul/lexique
-test-go-mod-version     https://github.com/moul/test-go-mod-version
-srand                   https://github.com/moul/srand
-junk                    https://github.com/moul/junk
-webchange               https://github.com/moul/webchange
-hcfilters               https://github.com/moul/hcfilters
-pkgman                  https://github.com/moul/pkgman
-wipchat                 https://github.com/moul/wipchat
-roundtripper            https://github.com/moul/roundtripper
-banner                  https://github.com/moul/banner
-bot                     https://github.com/moul/bot
-motd                    https://github.com/moul/motd
-sgtm                    https://github.com/sgtm-club/sgtm
-zapgorm2                https://github.com/moul/zapgorm2
-openfiles               https://github.com/moul/openfiles
-grpcbin                 https://github.com/moul/grpcbin
-makerlog                https://github.com/moul/makerlog
-radioman                https://github.com/moul/radioman
-makerinbox              https://github.com/moul/makerinbox
-u                       https://github.com/moul/u
-zapfilter               https://github.com/moul/zapfilter
-testman                 https://github.com/moul/testman
-prefix                  https://github.com/moul/prefix
-generate-fake-data      https://github.com/moul/generate-fake-data
-berty-library-test      https://github.com/moul/berty-library-test
-zapconfig               https://github.com/moul/zapconfig
-git-ci                  https://github.com/moul/git-ci
-converter               https://github.com/moul/converter
-progress                https://github.com/moul/progress
-einstein-riddle-generator   https://github.com/moul/einstein-riddle-generator
-captcha                 https://github.com/moul/captcha
-zapring                 https://github.com/moul/zapring
-alfred-workflow-u       https://github.com/moul/alfred-workflow-u
-logman                  https://github.com/moul/logman
-totp-cli                https://github.com/moul/totp-cli
-chizap                  https://github.com/moul/chizap
-rrgc                    https://github.com/moul/rrgc
-climan                  https://github.com/moul/climan
-hostman                 https://github.com/moul/hostman
-go.moul.io              https://github.com/moul/go.moul.io
-cosmos-snapshot         https://github.com/moul/cosmos-snapshot
-poc-cmd-to-everything   https://github.com/moul/poc-cmd-to-everything
-adapterkit              https://github.com/moul/adapterkit
-berty-discord-webhook   https://github.com/moul/berty-discord-webhook
-gno-stuff               https://github.com/moul/gno-stuff
-gno-basics              https://github.com/moul/gno-basics
-asanaman                https://github.com/moul/asanaman
-manfred.land            https://github.com/moul/manfred.land
-adapterkit-module-demo  https://github.com/moul/adapterkit-module-demo
-mdtable                 https://github.com/moul/mdtable
-mdcodec                 https://github.com/moul/mdcodec
-txtar                   https://github.com/moul/txtar
-plz                     https://github.com/moul/plz
-vanitycal               https://github.com/moul/vanitycal
-ansicat                 https://github.com/moul/ansicat
-migai                   https://github.com/moul/migai
-revbro                  https://github.com/moul/revbro
-diyentropy              https://github.com/moul/diyentropy
+package,repo,private
+retry,https://github.com/moul/retry,no
+depviz,https://github.com/moul/depviz,yes
+anonuuid,https://github.com/moul/anonuuid,no
+protoc-gen-gotemplate,https://github.com/moul/protoc-gen-gotemplate,no
+zapgorm,https://github.com/moul/zapgorm,no
+sshportal,https://github.com/moul/sshportal,no
+assh,https://github.com/moul/assh,no
+patfind,https://github.com/moul/patfind,no
+manfred.life,https://github.com/moul/manfred.life,yes
+dockerself,https://github.com/moul/dockerself,no
+totp-keychain,https://github.com/moul/totp-keychain,no
+pipotron,https://github.com/moul/pipotron,no
+graphman,https://github.com/moul/graphman,no
+golang-repo-template,https://github.com/moul/golang-repo-template,no
+build,https://github.com/moul/build,no
+quicssh,https://github.com/moul/quicssh,no
+fs-bundler,https://github.com/moul/fs-bundler,no
+multipmuri,https://github.com/moul/multipmuri,no
+dl,https://github.com/moul/dl,no
+cryptoguess,https://github.com/moul/cryptoguess,no
+golabo,https://github.com/moul/golabo,yes
+number-to-words,https://github.com/moul/number-to-words,no
+funcenter,https://github.com/moul/funcenter,no
+asciimoul,https://github.com/moul/asciimoul,no
+moulsay,https://github.com/moul/moulsay,no
+moul.io,https://github.com/moul/moul.io,no
+ascii2svg,https://github.com/moul/ascii2svg,no
+event,https://github.com/moul/event,no
+godev,https://github.com/moul/godev,no
+rules.mk,https://github.com/moul/rules.mk,no
+tmp-grt-fork,https://github.com/moul/tmp-grt-fork,yes
+drunken-bishop,https://github.com/moul/drunken-bishop,no
+otp,https://github.com/moul/otp,no
+awesome,https://github.com/moul/awesome,yes
+guilhunize,https://github.com/moul/guilhunize,no
+music-paint,https://github.com/moul/music-paint,no
+metronome,https://github.com/moul/metronome,no
+hacker-typing,https://github.com/moul/hacker-typing,no
+http2curl,https://github.com/moul/http2curl,no
+lexique,https://github.com/moul/lexique,no
+test-go-mod-version,https://github.com/moul/test-go-mod-version,no
+srand,https://github.com/moul/srand,no
+junk,https://github.com/moul/junk,no
+webchange,https://github.com/moul/webchange,yes
+hcfilters,https://github.com/moul/hcfilters,no
+pkgman,https://github.com/moul/pkgman,no
+wipchat,https://github.com/moul/wipchat,no
+roundtripper,https://github.com/moul/roundtripper,no
+banner,https://github.com/moul/banner,no
+bot,https://github.com/moul/bot,yes
+motd,https://github.com/moul/motd,no
+sgtm,https://github.com/sgtm-club/sgtm,yes
+zapgorm2,https://github.com/moul/zapgorm2,no
+openfiles,https://github.com/moul/openfiles,no
+grpcbin,https://github.com/moul/grpcbin,no
+makerlog,https://github.com/moul/makerlog,no
+radioman,https://github.com/moul/radioman,no
+makerinbox,https://github.com/moul/makerinbox,yes
+u,https://github.com/moul/u,yes
+zapfilter,https://github.com/moul/zapfilter,no
+testman,https://github.com/moul/testman,no
+prefix,https://github.com/moul/prefix,no
+generate-fake-data,https://github.com/moul/generate-fake-data,no
+berty-library-test,https://github.com/moul/berty-library-test,no
+zapconfig,https://github.com/moul/zapconfig,no
+git-ci,https://github.com/moul/git-ci,no
+converter,https://github.com/moul/converter,no
+progress,https://github.com/moul/progress,no
+einstein-riddle-generator,https://github.com/moul/einstein-riddle-generator,no
+captcha,https://github.com/moul/captcha,no
+zapring,https://github.com/moul/zapring,no
+alfred-workflow-u,https://github.com/moul/alfred-workflow-u,no
+logman,https://github.com/moul/logman,no
+totp-cli,https://github.com/moul/totp-cli,no
+chizap,https://github.com/moul/chizap,no
+rrgc,https://github.com/moul/rrgc,no
+climan,https://github.com/moul/climan,no
+hostman,https://github.com/moul/hostman,yes
+go.moul.io,https://github.com/moul/go.moul.io,yes
+cosmos-snapshot,https://github.com/moul/cosmos-snapshot,no
+poc-cmd-to-everything,https://github.com/moul/poc-cmd-to-everything,no
+adapterkit,https://github.com/moul/adapterkit,no
+berty-discord-webhook,https://github.com/moul/berty-discord-webhook,no
+gno-stuff,https://github.com/moul/gno-stuff,no
+gno-basics,https://github.com/moul/gno-basics,no
+asanaman,https://github.com/moul/asanaman,no
+manfred.land,https://github.com/moul/manfred.land,yes
+adapterkit-module-demo,https://github.com/moul/adapterkit-module-demo,no
+mdtable,https://github.com/moul/mdtable,no
+mdcodec,https://github.com/moul/mdcodec,no
+txtar,https://github.com/moul/txtar,no
+plz,https://github.com/moul/plz,no
+vanitycal,https://github.com/moul/vanitycal,no
+ansicat,https://github.com/moul/ansicat,no
+migai,https://github.com/moul/migai,yes
+revbro,https://github.com/moul/revbro,no
+diyentropy,https://github.com/moul/diyentropy,yes
+ghsql,https://github.com/moul/ghsql,yes
+bot2,https://github.com/moul/bot2,yes
+offline-tools,https://github.com/moul/offline-tools,yes
+cubemap,https://github.com/moul/cubemap,yes
+sdflkj,https://github.com/moul/sdflkj,yes

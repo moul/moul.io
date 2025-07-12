@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(chmod:*)",
+      "Bash(/home/moul/go/src/moul.io/moul.io/list-github-repos.sh:*)",
+      "Bash(gh repo list:*)",
+      "Bash(test:*)",
+      "Bash(./list-github-repos.sh:*)",
+      "Bash(make:*)",
+      "Bash(grep:*)",
+      "Bash(./update-vanity-privacy.sh:*)",
+      "Bash(ls:*)",
+      "Bash(rm:*)",
+      "Bash(./convert-to-csv.sh:*)"
+    ],
+    "deny": []
+  }
+}

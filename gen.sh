@@ -6,8 +6,14 @@ rootdir="public"
 create_package() {
     project_name="$1"
     project_url="$2"
+    is_private="$3"
 
-    echo "$project_name" >> $rootdir/go-packages.txt
+    # Only add to public listing if not private
+    if [ "$is_private" != "yes" ]; then
+        echo "$project_name" >> $rootdir/go-packages.txt
+    fi
+    
+    # Always create the go-get redirect and pages (even for private repos)
     echo "/$project_name/* go-get=1 /$project_name/go-get.html 200!" >> $rootdir/_redirects
     #echo "/$project_name/ $project_url 301!" >> $rootdir/_redirects
     #echo "/$project_name/* $project_url 301!" >> $rootdir/_redirects
@@ -53,13 +59,11 @@ EOF
 
 }
 
-while read line; do
-    if echo $line | grep --silent -E '^#'; then continue; fi
-
-    project_name=$(echo $line | awk '{print $1}')
-    project_url=$(echo $line | awk '{print $2}')
-    create_package "$project_name" "$project_url"
-done < vanity.csv
+# Skip header line and process CSV
+tail -n +2 vanity.csv | while IFS=',' read -r project_name project_url is_private; do
+    if [ -z "$project_name" ]; then continue; fi
+    create_package "$project_name" "$project_url" "$is_private"
+done
 
 cat $rootdir/go-packages.txt | sort -u > $rootdir/go-packages-sorted.txt
 mv $rootdir/go-packages-sorted.txt $rootdir/go-packages.txt
